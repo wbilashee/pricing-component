@@ -48,9 +48,9 @@ ul {
 
 .footer {
   color: hsl(225deg, 20%, 60%);
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   text-align: center;
-  padding-bottom: 3.75rem;
+  padding: 0 1.75rem 3.75rem 1.75rem;
 }
 .footer a {
   color: hsl(225deg, 20%, 60%);
