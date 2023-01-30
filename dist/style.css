@@ -46,6 +46,16 @@ ul {
   }
 }
 
+.footer {
+  color: hsl(225deg, 20%, 60%);
+  font-size: 0.85rem;
+  text-align: center;
+  padding-bottom: 3.75rem;
+}
+.footer a {
+  color: hsl(225deg, 20%, 60%);
+}
+
 .header {
   text-align: center;
   padding: 5.5rem 0 3rem;
