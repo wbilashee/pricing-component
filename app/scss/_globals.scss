@@ -11,12 +11,37 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  -webkit-box-sizing: border-box;
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Manrope", sans-serif;
+  background-color: $veryPaleBlue;
+  background-image: url("../images/bg-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  font-size: 62.5%;
+  line-height: 1.6;
+  padding: 0 0.5rem;
+  max-width: 38.8rem;
+  margin-bottom: 5rem;
+
+  @include breakpoint-up(medium) {
+    padding: 0 2rem;
+    margin-bottom: 6rem;
+  }
 }
