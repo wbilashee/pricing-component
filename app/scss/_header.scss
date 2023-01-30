@@ -1,0 +1,35 @@
+.header {
+  text-align: center;
+  padding: 5.5rem 0 3rem;
+  background-image: url("../images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @include breakpoint-up(medium) {
+    padding: 6rem 0 4rem;
+  }
+
+  h1 {
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    color: $darkDesaturatedBlue;
+
+    @include breakpoint-up(large) {
+      font-size: 1.625rem;
+    }
+  }
+
+  p {
+    width: 10.75rem;
+    line-height: 1.75;
+    color: $grayishBlue;
+    font-size: 0.8125rem;
+    margin: 0.5rem auto auto;
+
+    @include breakpoint-up(large) {
+      width: auto;
+      font-size: 0.875rem;
+      margin: 0.6875rem 0 auto;
+    }
+  }
+}

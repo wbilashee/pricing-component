@@ -18,4 +18,41 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.header {
+  text-align: center;
+  padding: 5.5rem 0 3rem;
+  background-image: url("../images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (min-width: 40em) {
+  .header {
+    padding: 6rem 0 4rem;
+  }
+}
+.header h1 {
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  color: hsl(227deg, 35%, 25%);
+}
+@media (min-width: 64em) {
+  .header h1 {
+    font-size: 1.625rem;
+  }
+}
+.header p {
+  width: 10.75rem;
+  line-height: 1.75;
+  color: hsl(225deg, 20%, 60%);
+  font-size: 0.8125rem;
+  margin: 0.5rem auto auto;
+}
+@media (min-width: 64em) {
+  .header p {
+    width: auto;
+    font-size: 0.875rem;
+    margin: 0.6875rem 0 auto;
+  }
 }/*# sourceMappingURL=style.css.map */
